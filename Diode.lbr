@@ -1,0 +1,20 @@
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="yes" />
+<setting verticaltext="up" />
+</settings>
+<grid altdistance="5" altunit="mil" altunitdist="mil" display="yes" distance="50" multiple="1" style="lines" unit="mil" unitdist="mil" />
+<layers>
+</layers>
+<library>
+<description>.</description>
+<packages>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
