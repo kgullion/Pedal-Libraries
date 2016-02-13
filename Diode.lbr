@@ -10,10 +10,335 @@
 <library>
 <description>.</description>
 <packages>
+<package name="DO41">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="2.05" x2="2.05" y1="-0.3" y2="0.4" />
+<pad drill="0.9" name="1" x="-2.54" y="0" />
+<pad drill="0.9" name="2" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0.635" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="-1.3" y2="-1.3" />
+<wire layer="21" width="0.127" x1="2.05" x2="2.05" y1="-0.8" y2="0.8" />
+<wire layer="21" width="0.127" x1="-2.05" x2="-2.05" y1="-0.8" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="1.55" x2="2.05" y1="-1.3" y2="-0.8" />
+<wire curve="90" layer="21" width="0.127" x1="2.05" x2="1.55" y1="0.8" y2="1.3" />
+<wire curve="90" layer="21" width="0.127" x1="-1.55" x2="-2.05" y1="1.3" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="-2.05" x2="-1.55" y1="-0.8" y2="-1.3" />
+</package>
+<package name="DO41_3">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="2.05" x2="2.05" y1="-0.3" y2="0.4" />
+<pad drill="0.9" name="1" x="-3.81" y="0" />
+<pad drill="0.9" name="2" x="3.81" y="0" />
+<text align="center" layer="25" size="1" x="0.635" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="-1.3" y2="-1.3" />
+<wire layer="21" width="0.127" x1="2.05" x2="2.05" y1="-0.8" y2="0.8" />
+<wire layer="21" width="0.127" x1="-2.05" x2="-2.05" y1="-0.8" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="1.55" x2="2.05" y1="-1.3" y2="-0.8" />
+<wire curve="90" layer="21" width="0.127" x1="2.05" x2="1.55" y1="0.8" y2="1.3" />
+<wire curve="90" layer="21" width="0.127" x1="-1.55" x2="-2.05" y1="1.3" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="-2.05" x2="-1.55" y1="-0.8" y2="-1.3" />
+</package>
+<package name="DO41_4">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="2.05" x2="2.05" y1="-0.3" y2="0.4" />
+<pad drill="0.9" name="1" x="-5.08" y="0" />
+<pad drill="0.9" name="2" x="5.08" y="0" />
+<text align="center" layer="25" size="1" x="0.635" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="-1.3" y2="-1.3" />
+<wire layer="21" width="0.127" x1="2.05" x2="2.05" y1="-0.8" y2="0.8" />
+<wire layer="21" width="0.127" x1="-2.05" x2="-2.05" y1="-0.8" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="1.55" x2="2.05" y1="-1.3" y2="-0.8" />
+<wire curve="90" layer="21" width="0.127" x1="2.05" x2="1.55" y1="0.8" y2="1.3" />
+<wire curve="90" layer="21" width="0.127" x1="-1.55" x2="-2.05" y1="1.3" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="-2.05" x2="-1.55" y1="-0.8" y2="-1.3" />
+</package>
+<package name="DO41_5">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="2.05" x2="2.05" y1="-0.3" y2="0.4" />
+<pad drill="0.9" name="1" x="-6.35" y="0" />
+<pad drill="0.9" name="2" x="6.35" y="0" />
+<text align="center" layer="25" size="1" x="0.635" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="1.3" y2="1.3" />
+<wire layer="21" width="0.127" x1="-1.55" x2="1.55" y1="-1.3" y2="-1.3" />
+<wire layer="21" width="0.127" x1="2.05" x2="2.05" y1="-0.8" y2="0.8" />
+<wire layer="21" width="0.127" x1="-2.05" x2="-2.05" y1="-0.8" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="1.55" x2="2.05" y1="-1.3" y2="-0.8" />
+<wire curve="90" layer="21" width="0.127" x1="2.05" x2="1.55" y1="0.8" y2="1.3" />
+<wire curve="90" layer="21" width="0.127" x1="-1.55" x2="-2.05" y1="1.3" y2="0.8" />
+<wire curve="90" layer="21" width="0.127" x1="-2.05" x2="-1.55" y1="-0.8" y2="-1.3" />
+</package>
+<package name="DO35">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="1.95" x2="1.95" y1="-0.3" y2="0.4" />
+<wire layer="21" width="0.1" x1="-1.95" x2="-1.95" y1="0.3" y2="-0.4" />
+<wire layer="21" width="0.1" x1="-1.5" x2="1.4" y1="0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.4" x2="1.5" y1="-0.85" y2="-0.85" />
+<wire curve="90" layer="21" width="0.1" x1="-1.5" x2="-1.95" y1="0.85" y2="0.3" />
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0.635" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-0.85" y2="0.85" />
+<wire curve="90" layer="21" width="0.1" x1="-1.95" x2="-1.4" y1="-0.4" y2="-0.85" />
+<wire curve="90" layer="21" width="0.1" x1="1.5" x2="1.95" y1="-0.85" y2="-0.3" />
+<wire curve="90" layer="21" width="0.1" x1="1.95" x2="1.4" y1="0.4" y2="0.85" />
+</package>
+<package name="DO35_3">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="1.95" x2="1.95" y1="-0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="-1.95" y1="0.85" y2="-0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="1.95" y1="0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="1.95" y1="-0.85" y2="-0.85" />
+<pad drill="0.7" name="1" x="-3.81" y="0" />
+<pad drill="0.7" name="2" x="3.81" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-0.85" y2="0.85" />
+</package>
+<package name="DO35_4">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="1.95" x2="1.95" y1="-0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="-1.95" y1="0.85" y2="-0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="1.95" y1="0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="1.95" y1="-0.85" y2="-0.85" />
+<pad drill="0.7" name="1" x="-5.08" y="0" />
+<pad drill="0.7" name="2" x="5.08" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-0.85" y2="0.85" />
+</package>
+<package name="DO35_5">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="1.95" x2="1.95" y1="-0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="-1.95" y1="0.85" y2="-0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="1.95" y1="0.85" y2="0.85" />
+<wire layer="21" width="0.1" x1="-1.95" x2="1.95" y1="-0.85" y2="-0.85" />
+<pad drill="0.7" name="1" x="-6.35" y="0" />
+<pad drill="0.7" name="2" x="6.35" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+<rectangle layer="21" x1="-1.5" x2="-0.75" y1="-0.85" y2="0.85" />
+</package>
+<package name="DO35_VERT">
+<description>&lt;b&gt;0.1" lead spacing&lt;/b&gt;</description>
+<wire curve="250" layer="21" width="0.1" x1="0.8" x2="0.8" y1="-0.7" y2="0.7" />
+<pad drill="0.7" name="1" x="-1.27" y="0" />
+<pad drill="0.7" name="2" x="1.27" y="0" />
+<text align="center" layer="25" rot="R90" size="1" x="0" y="0">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
+<symbol name="D">
+<wire layer="94" width="0.1" x1="3.81" x2="2.04" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="-3.81" x2="-2.04" y1="0" y2="0" />
+<pin direction="pas" length="point" name="1" swaplevel="1" visible="off" x="-3.81" y="0" />
+<pin direction="pas" length="point" name="2" rot="R180" swaplevel="1" visible="off" x="3.81" y="0" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<wire layer="94" width="0.1" x1="-2" x2="2" y1="0" y2="2" />
+<wire layer="94" width="0.1" x1="2" x2="2" y1="2" y2="-2" />
+<wire layer="94" width="0.1" x1="2" x2="-2" y1="-2" y2="0" />
+<wire layer="94" width="0.1" x1="-2" x2="-2" y1="0" y2="2" />
+<wire layer="94" width="0.1" x1="-2" x2="-2" y1="0" y2="-2" />
+</symbol>
+<symbol name="Z">
+<wire layer="94" width="0.1" x1="3.81" x2="2.04" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="-3.81" x2="-2.04" y1="0" y2="0" />
+<pin direction="pas" length="point" name="1" swaplevel="1" visible="off" x="-3.81" y="0" />
+<pin direction="pas" length="point" name="2" rot="R180" swaplevel="1" visible="off" x="3.81" y="0" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<wire layer="94" width="0.1" x1="-2" x2="2" y1="0" y2="2" />
+<wire layer="94" width="0.1" x1="2" x2="2" y1="2" y2="-2" />
+<wire layer="94" width="0.1" x1="2" x2="-2" y1="-2" y2="0" />
+<wire layer="94" width="0.1" x1="-2" x2="-2" y1="0" y2="1" />
+<wire layer="94" width="0.1" x1="-2" x2="-2" y1="0" y2="-1" />
+<wire layer="94" width="0.1" x1="-2" x2="-2.5" y1="1" y2="2" />
+<wire layer="94" width="0.1" x1="-2" x2="-1.5" y1="-1" y2="-2" />
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>Generic Diode</description>
+<gates>
+<gate name="D" symbol="D" x="0" y="0" />
+</gates>
+<devices>
+<device name="_DO41" package="DO41">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO41_3" package="DO41_3">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO41_4" package="DO41_4">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO41_5" package="DO41_5">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35" package="DO35">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_3" package="DO35_3">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_4" package="DO35_4">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_5" package="DO35_5">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_VERTICAL" package="DO35_VERT">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZENER" prefix="Z" uservalue="yes">
+<description>Generic Diode</description>
+<gates>
+<gate name="D" symbol="Z" x="0" y="0" />
+</gates>
+<devices>
+<device name="_DO41" package="DO41">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO41_3" package="DO41_3">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO41_4" package="DO41_4">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO41_5" package="DO41_5">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35" package="DO35">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_3" package="DO35_3">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_4" package="DO35_4">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_5" package="DO35_5">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DO35_VERTICAL" package="DO35_VERT">
+<connects>
+<connect gate="D" pad="1" pin="1" />
+<connect gate="D" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

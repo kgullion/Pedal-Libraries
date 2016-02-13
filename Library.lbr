@@ -534,6 +534,43 @@
 <text x="5.08" y="2.5" size="1" layer="22" font="vector" ratio="12" align="center">1</text>
 <text x="0" y="2.667" size="1.27" layer="26" ratio="12" align="center">&gt;NAME</text>
 </package>
+    <package name="TRIM">
+        <circle x="0" y="0" radius="1.9715" width="0.127" layer="21"/>
+        <wire x1="3.175" y1="3.429" x2="-3.175" y2="3.429" width="0.1524" layer="21"/>
+        <wire x1="3.175" y1="3.429" x2="3.429" y2="3.175" width="0.1524" layer="21"/>
+        <wire x1="3.175" y1="-3.429" x2="3.429" y2="-3.175" width="0.1524" layer="21"/>
+        <wire x1="3.429" y1="-3.175" x2="3.429" y2="3.175" width="0.1524" layer="21"/>
+        <wire x1="-3.175" y1="-3.429" x2="-3.429" y2="-3.175" width="0.1524" layer="21"/>
+        <wire x1="-3.175" y1="3.429" x2="-3.429" y2="3.175" width="0.1524" layer="21"/>
+        <wire x1="-3.429" y1="3.175" x2="-3.429" y2="-3.175" width="0.1524" layer="21"/>
+        <wire x1="0.762" y1="-0.381" x2="1.905" y2="-0.381" width="0.1524" layer="21"/>
+        <wire x1="1.905" y1="-0.381" x2="1.905" y2="0.381" width="0.1524" layer="21"/>
+        <wire x1="1.905" y1="0.381" x2="0.762" y2="0.381" width="0.1524" layer="21"/>
+        <wire x1="0.762" y1="0.381" x2="0.381" y2="0.762" width="0.1524" layer="21"/>
+        <wire x1="0.381" y1="1.905" x2="-0.381" y2="1.905" width="0.1524" layer="21"/>
+        <wire x1="-0.381" y1="0.762" x2="-0.762" y2="0.381" width="0.1524" layer="21"/>
+        <wire x1="-0.762" y1="0.381" x2="-1.905" y2="0.381" width="0.1524" layer="21"/>
+        <wire x1="-1.905" y1="0.381" x2="-1.905" y2="-0.381" width="0.1524" layer="21"/>
+        <wire x1="-1.905" y1="-0.381" x2="-0.762" y2="-0.381" width="0.1524" layer="21"/>
+        <wire x1="-0.381" y1="-0.762" x2="-0.762" y2="-0.381" width="0.1524" layer="21"/>
+        <wire x1="-0.381" y1="-1.905" x2="0.381" y2="-1.905" width="0.1524" layer="21"/>
+        <wire x1="0.381" y1="-0.762" x2="0.762" y2="-0.381" width="0.1524" layer="21"/>
+        <wire x1="1.778" y1="1.651" x2="2.032" y2="1.905" width="0.3048" layer="21"/>
+        <wire x1="-1.905" y1="1.651" x2="-2.159" y2="1.905" width="0.3048" layer="21"/>
+        <wire x1="0.381" y1="0.762" x2="0.381" y2="1.905" width="0.1524" layer="21"/>
+        <wire x1="-0.381" y1="1.905" x2="-0.381" y2="0.762" width="0.1524" layer="21"/>
+        <wire x1="0.381" y1="-1.905" x2="0.381" y2="-0.762" width="0.1524" layer="21"/>
+        <wire x1="-0.381" y1="-0.762" x2="-0.381" y2="-1.905" width="0.1524" layer="21"/>
+        <wire x1="-3.175" y1="-3.429" x2="3.175" y2="-3.429" width="0.1524" layer="21"/>
+        <pad name="1" x="-2.54" y="0" drill="1"/>
+        <pad name="2" x="0" y="2.54" drill="1"/>
+        <pad name="3" x="2.54" y="0" drill="1"/>
+        <text x="0" y="-3.302" size="1.016" layer="25" ratio="12" align="center">&gt;NAME</text>
+        <text x="0.127" y="0" size="1.016" layer="21" font="vector" align="center">1</text>
+        <pad name="4" x="-2.54" y="-2.54" drill="1"/>
+        <pad name="5" x="0" y="-2.54" drill="1"/>
+        <pad name="6" x="2.54" y="-2.54" drill="1"/>
+    </package>
 <package name="TO92">
 <pad name="1" x="-2.54" y="0" drill="0.7"/>
 <pad name="2" x="0" y="0" drill="0.7"/>
@@ -1485,6 +1522,16 @@
 <technology name=""/>
 </technologies>
 </device>
+    <device name="_TRIM" package="TRIM">
+        <connects>
+            <connect gate="G$1" pin="1" pad="1 4"/>
+            <connect gate="G$1" pin="2" pad="2 5"/>
+            <connect gate="G$1" pin="3" pad="3 6"/>
+        </connects>
+        <technologies>
+            <technology name=""/>
+        </technologies>
+    </device>
 </devices>
 </deviceset>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">

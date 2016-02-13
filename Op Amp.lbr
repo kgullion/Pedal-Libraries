@@ -10,10 +10,216 @@
 <library>
 <description>.</description>
 <packages>
+<package name="TO5-8">
+<description>&lt;b&gt;Metal Can 8pin Package&lt;/b&gt;</description>
+<pad drill="0.7" name="1" shape="square" x="-1.79605" y="-1.79605" />
+<pad drill="0.7" name="7" x="-1.79605" y="1.79605" />
+<pad drill="0.7" name="2" x="0" y="-2.54" />
+<pad drill="0.7" name="5" x="1.79605" y="1.79605" />
+<pad drill="0.7" name="4" x="2.54" y="0" />
+<pad drill="0.7" name="3" x="1.79605" y="-1.79605" />
+<pad drill="0.7" name="6" x="0" y="2.54" />
+<pad drill="0.7" name="8" x="-2.54" y="0" />
+<text align="center" layer="25" ratio="12" size="1.27" x="0" y="0">&gt;NAME</text>
+<circle layer="21" radius="4.2545" width="0.02" x="0" y="0" />
+<circle layer="21" radius="4.699" width="0.1" x="0" y="0" />
+<wire layer="21" width="0.127" x1="-4.6791125" x2="-5.4157125" y1="-0.4318" y2="-0.4318" />
+<wire layer="21" width="0.127" x1="-5.4157125" x2="-5.4157125" y1="-0.4318" y2="0.4318" />
+<wire layer="21" width="0.127" x1="-5.4157125" x2="-4.6791125" y1="0.4318" y2="0.4318" />
+</package>
+<package name="DIL08">
+<description>&lt;b&gt;Dual In Line 8pin Package&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="5.08" x2="-5.08" y1="2.921" y2="2.921" />
+<wire layer="21" width="0.1" x1="-5.08" x2="5.08" y1="-2.921" y2="-2.921" />
+<wire layer="21" width="0.1" x1="5.08" x2="5.08" y1="2.921" y2="-2.921" />
+<wire curve="-180" layer="21" width="0.1" x1="-5.08" x2="-5.08" y1="0.6985" y2="-0.6985" />
+<wire layer="21" width="0.1" x1="-5.08" x2="-5.08" y1="-2.921" y2="2.921" />
+<pad drill="0.7" name="1" shape="square" x="-3.81" y="-3.81" />
+<pad drill="0.7" name="2" x="-1.27" y="-3.81" />
+<pad drill="0.7" name="3" x="1.27" y="-3.81" />
+<pad drill="0.7" name="4" x="3.81" y="-3.81" />
+<pad drill="0.7" name="5" x="3.81" y="3.81" />
+<pad drill="0.7" name="6" x="1.27" y="3.81" />
+<pad drill="0.7" name="7" x="-1.27" y="3.81" />
+<pad drill="0.7" name="8" x="-3.81" y="3.81" />
+<text align="center" layer="25" ratio="12" size="1.27" x="0" y="0">&gt;NAME</text>
+<wire layer="21" width="0.1" x1="-5.08" x2="-5.08" y1="-2.921" y2="2.921" />
+</package>
+<package name="DIL14">
+<description>&lt;b&gt;Dual In Line 14pin Package&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="8.382" x2="-8.382" y1="2.921" y2="2.921" />
+<wire layer="21" width="0.1" x1="-8.382" x2="8.382" y1="-2.921" y2="-2.921" />
+<wire layer="21" width="0.1" x1="8.382" x2="8.382" y1="2.921" y2="-2.921" />
+<wire layer="21" width="0.1" x1="-8.382" x2="-8.382" y1="2.921" y2="-2.921" />
+<wire curve="-180" layer="21" width="0.1" x1="-8.382" x2="-8.382" y1="0.6985" y2="-0.6985" />
+<pad drill="0.7" name="1" shape="square" x="-7.62" y="-3.81" />
+<pad drill="0.7" name="2" x="-5.08" y="-3.81" />
+<pad drill="0.7" name="3" x="-2.54" y="-3.81" />
+<pad drill="0.7" name="4" x="0" y="-3.81" />
+<pad drill="0.7" name="5" x="2.54" y="-3.81" />
+<pad drill="0.7" name="6" x="5.08" y="-3.81" />
+<pad drill="0.7" name="7" x="7.62" y="-3.81" />
+<pad drill="0.7" name="8" x="7.62" y="3.81" />
+<pad drill="0.7" name="9" x="5.08" y="3.81" />
+<pad drill="0.7" name="10" x="2.54" y="3.81" />
+<pad drill="0.7" name="11" x="0" y="3.81" />
+<pad drill="0.7" name="12" x="-2.54" y="3.81" />
+<pad drill="0.7" name="13" x="-5.08" y="3.81" />
+<pad drill="0.7" name="14" x="-7.62" y="3.81" />
+<text align="center" layer="25" ratio="12" size="1.27" x="0" y="0">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
+<symbol name="OP-AMP">
+<wire layer="94" width="0.1" x1="-3.81" x2="-3.81" y1="3.175" y2="1.905" />
+<wire layer="94" width="0.1" x1="-4.445" x2="-3.175" y1="2.54" y2="2.54" />
+<wire layer="94" width="0.1" x1="-4.445" x2="-3.175" y1="-2.54" y2="-2.54" />
+<wire layer="94" width="0.1" x1="5.08" x2="-5.08" y1="0" y2="5.08" />
+<wire layer="94" width="0.1" x1="-5.08" x2="-5.08" y1="5.08" y2="-5.08" />
+<wire layer="94" width="0.1" x1="-5.08" x2="5.08" y1="-5.08" y2="0" />
+<text layer="95" size="1.778" x="2.54" y="5.715">&gt;NAME</text>
+<text layer="96" size="1.778" x="2.54" y="-5.08">&gt;VALUE</text>
+<pin direction="in" length="short" name="IN-" visible="pad" x="-7.62" y="-2.54" />
+<pin direction="in" length="short" name="IN+" visible="pad" x="-7.62" y="2.54" />
+<pin direction="out" length="short" name="OUT" rot="R180" visible="pad" x="7.62" y="0" />
+</symbol>
+<symbol name="POWER">
+<pin direction="pwr" length="middle" name="VCC+" rot="R270" visible="pad" x="0" y="7.62" />
+<pin direction="pwr" length="middle" name="VCC-" rot="R90" visible="pad" x="0" y="-7.62" />
+<text align="center" layer="95" size="0.8128" x="-0.635" y="0">&gt;NAME</text>
+<text align="center" layer="97" size="0.6096" x="0.635" y="6.35">V+</text>
+<text align="center" layer="97" size="0.6096" x="0.635" y="-6.477">V-</text>
+</symbol>
+<symbol name="OFFSET">
+<pin direction="pas" length="middle" name="N1" rot="R270" visible="pad" x="0" y="7.62" />
+<pin direction="pas" length="middle" name="N2" rot="R90" visible="pad" x="0" y="-7.62" />
+<text align="center" layer="95" size="0.8128" x="-0.635" y="0">&gt;NAME</text>
+</symbol>
+<symbol name="BIAS">
+<pin direction="pas" function="dot" length="middle" name="SELECT" rot="R270" visible="pad" x="0" y="7.62" />
+<text align="center" layer="95" size="0.8128" x="-0.635" y="0">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="SINGLE" prefix="IC">
+<description>&lt;b&gt;Standard Dual Operational Amplifier&lt;/b&gt;Common devices include the TL071 and the 741.</description>
+<gates>
+<gate name="A" swaplevel="1" symbol="OP-AMP" x="12.7" y="5.08" />
+<gate addlevel="can" name="O" swaplevel="1" symbol="OFFSET" x="-10.16" y="5.08" />
+<gate addlevel="can" name="S" swaplevel="1" symbol="BIAS" x="-2.54" y="5.08" />
+<gate addlevel="always" name="P" symbol="POWER" x="12.7" y="5.08" />
+</gates>
+<devices>
+<device name="DIL" package="DIL08">
+<connects>
+<connect gate="A" pad="3" pin="IN+" />
+<connect gate="A" pad="2" pin="IN-" />
+<connect gate="A" pad="6" pin="OUT" />
+<connect gate="O" pad="1" pin="N1" />
+<connect gate="O" pad="5" pin="N2" />
+<connect gate="P" pad="7" pin="VCC+" />
+<connect gate="P" pad="4" pin="VCC-" />
+<connect gate="S" pad="8" pin="SELECT" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="TO5" package="TO5-8">
+<connects>
+<connect gate="A" pad="2" pin="IN+" />
+<connect gate="A" pad="7" pin="IN-" />
+<connect gate="A" pad="3" pin="OUT" />
+<connect gate="O" pad="1" pin="N1" />
+<connect gate="O" pad="4" pin="N2" />
+<connect gate="P" pad="6" pin="VCC+" />
+<connect gate="P" pad="5" pin="VCC-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DUAL" prefix="IC">
+<description>&lt;b&gt;Standard Dual Operational Amplifier&lt;/b&gt;Common devices include the TL072 and LM358.</description>
+<gates>
+<gate name="A" swaplevel="1" symbol="OP-AMP" x="12.7" y="5.08" />
+<gate name="B" swaplevel="1" symbol="OP-AMP" x="12.7" y="-7.62" />
+<gate name="P" symbol="POWER" x="-10.16" y="0" />
+</gates>
+<devices>
+<device name="DIL" package="DIL08">
+<connects>
+<connect gate="A" pad="3" pin="IN+" />
+<connect gate="A" pad="2" pin="IN-" />
+<connect gate="A" pad="1" pin="OUT" />
+<connect gate="B" pad="7" pin="IN+" />
+<connect gate="B" pad="6" pin="IN-" />
+<connect gate="B" pad="5" pin="OUT" />
+<connect gate="P" pad="8" pin="VCC+" />
+<connect gate="P" pad="4" pin="VCC-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="QUAD" prefix="IC">
+<description>&lt;b&gt;Standard Quad Operational Amplifier&lt;/b&gt;Common devices include the TL074 and LM324. Alternate package included for devices like the LM339.</description>
+<gates>
+<gate name="A" swaplevel="1" symbol="OP-AMP" x="12.7" y="5.08" />
+<gate name="B" swaplevel="1" symbol="OP-AMP" x="33.02" y="5.08" />
+<gate name="C" swaplevel="1" symbol="OP-AMP" x="12.7" y="-7.62" />
+<gate name="D" swaplevel="1" symbol="OP-AMP" x="33.02" y="-7.62" />
+<gate name="P" symbol="POWER" x="-2.54" y="0" />
+</gates>
+<devices>
+<device name="DIL" package="DIL14">
+<connects>
+<connect gate="A" pad="3" pin="IN+" />
+<connect gate="A" pad="2" pin="IN-" />
+<connect gate="A" pad="1" pin="OUT" />
+<connect gate="B" pad="5" pin="IN+" />
+<connect gate="B" pad="6" pin="IN-" />
+<connect gate="B" pad="7" pin="OUT" />
+<connect gate="C" pad="10" pin="IN+" />
+<connect gate="C" pad="9" pin="IN-" />
+<connect gate="C" pad="8" pin="OUT" />
+<connect gate="D" pad="12" pin="IN+" />
+<connect gate="D" pad="13" pin="IN-" />
+<connect gate="D" pad="14" pin="OUT" />
+<connect gate="P" pad="4" pin="VCC+" />
+<connect gate="P" pad="11" pin="VCC-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="ALT" package="DIL14">
+<connects>
+<connect gate="A" pad="5" pin="IN+" />
+<connect gate="A" pad="4" pin="IN-" />
+<connect gate="A" pad="2" pin="OUT" />
+<connect gate="B" pad="7" pin="IN+" />
+<connect gate="B" pad="6" pin="IN-" />
+<connect gate="B" pad="1" pin="OUT" />
+<connect gate="C" pad="9" pin="IN+" />
+<connect gate="C" pad="8" pin="IN-" />
+<connect gate="C" pad="14" pin="OUT" />
+<connect gate="D" pad="11" pin="IN+" />
+<connect gate="D" pad="10" pin="IN-" />
+<connect gate="D" pad="13" pin="OUT" />
+<connect gate="P" pad="3" pin="VCC+" />
+<connect gate="P" pad="12" pin="VCC-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
