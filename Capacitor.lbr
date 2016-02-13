@@ -10,10 +10,232 @@
 <library>
 <description>.</description>
 <packages>
+<package name="050_020">
+<description>&lt;b&gt;5mm diameter, 2mm lead spacing&lt;/b&gt;</description>
+<circle layer="21" radius="2.5" width="0.1" x="0" y="0" />
+<wire layer="21" width="0.1" x1="-1.143" x2="-1.143" y1="1.6764" y2="1.0414" />
+<wire layer="21" width="0.1" x1="-0.8128" x2="-1.4732" y1="1.3716" y2="1.3716" />
+<pad drill="0.7" name="+" shape="square" x="-1" y="0" />
+<pad drill="0.7" name="-" x="1" y="0" />
+<text align="center" layer="25" ratio="10" size="1" x="0" y="-1.5">&gt;NAME</text>
+</package>
+<package name="072_050_COMBO">
+<description>&lt;b&gt;5mm diameter, 2mm lead spacing&lt;/b&gt; &lt;br /&gt;Great for values that come in multiple packages.</description>
+<circle layer="21" radius="2.5" width="0.1" x="0" y="0" />
+<wire layer="21" width="0.1" x1="-1.143" x2="-1.143" y1="1.6764" y2="1.0414" />
+<wire layer="21" width="0.1" x1="-0.8128" x2="-1.4732" y1="1.3716" y2="1.3716" />
+<wire curve="-90" layer="21" width="0.1" x1="3.225" x2="3.81" y1="2.49" y2="1.905" />
+<wire curve="90" layer="21" width="0.1" x1="-3.225" x2="-3.81" y1="2.49" y2="1.905" />
+<wire curve="90" layer="21" width="0.1" x1="3.225" x2="3.81" y1="-2.49" y2="-1.905" />
+<wire curve="-90" layer="21" width="0.1" x1="-3.225" x2="-3.81" y1="-2.49" y2="-1.905" />
+<wire layer="21" width="0.1" x1="-3.225" x2="3.225" y1="2.49" y2="2.49" />
+<wire layer="21" width="0.1" x1="-3.225" x2="3.225" y1="-2.49" y2="-2.49" />
+<wire layer="21" width="0.1" x1="3.81" x2="3.81" y1="1.905" y2="-1.905" />
+<wire layer="21" width="0.1" x1="-3.81" x2="-3.81" y1="1.905" y2="-1.905" />
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="2.54" y="0" />
+<pad drill="0.7" name="+" shape="square" x="-1" y="0" />
+<pad drill="0.7" name="-" x="1" y="0" />
+<text align="center" layer="25" ratio="12" size="1" x="0" y="-1.5">&gt;NAME</text>
+</package>
+<package name="050_020_BIPOLAR">
+<description>&lt;b&gt;5mm diameter, 2mm lead spacing bipolar&lt;/b&gt;</description>
+<circle layer="21" radius="2.5" width="0.1" x="0" y="0" />
+<pad drill="0.7" name="1" x="-1" y="0" />
+<pad drill="0.7" name="2" x="1" y="0" />
+<text align="center" layer="25" ratio="12" size="1" x="0" y="-1.5">&gt;NAME</text>
+</package>
+<package name="063_025">
+<description>&lt;b&gt;6.3mm diameter, 2.5 mm lead spacing&lt;/b&gt;</description>
+<circle layer="21" radius="3.15" width="0.1" x="0" y="0" />
+<wire layer="21" width="0.1" x1="-1.778" x2="-1.778" y1="1.6764" y2="1.0414" />
+<wire layer="21" width="0.1" x1="-1.4478" x2="-2.1082" y1="1.3716" y2="1.3716" />
+<pad drill="0.7" name="+" shape="square" x="-1.25" y="0" />
+<pad drill="0.7" name="-" x="1.25" y="0" />
+<text align="center" layer="25" ratio="12" size="1" x="0" y="-1.8">&gt;NAME</text>
+</package>
+<package name="080_035">
+<description>&lt;b&gt;8mm diameter, 3.5 mm lead spacing&lt;/b&gt;</description>
+<circle layer="21" radius="4" width="0.1" x="0" y="0" />
+<wire layer="21" width="0.1" x1="-2" x2="-2" y1="1.5" y2="2.5" />
+<wire layer="21" width="0.1" x1="-1.5" x2="-2.5" y1="2" y2="2" />
+<pad drill="0.7" name="+" shape="square" x="-1.75" y="0" />
+<pad drill="0.7" name="-" x="1.75" y="0" />
+<text align="center" layer="25" ratio="12" size="1" x="0" y="-1.9">&gt;NAME</text>
+</package>
+<package name="BOX_072_050">
+<description>&lt;b&gt;7.2mm x 5mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="-2.948" x2="2.948" y1="2.49" y2="2.49" />
+<wire layer="21" width="0.1" x1="2.948" x2="3.225" y1="2.49" y2="2.49" />
+<wire curve="-90" layer="21" width="0.1" x1="3.225" x2="3.81" y1="2.49" y2="1.905" />
+<wire layer="21" width="0.1" x1="3.81" x2="3.81" y1="1.905" y2="-1.905" />
+<wire curve="-90" layer="21" width="0.1" x1="3.81" x2="3.225" y1="-1.905" y2="-2.49" />
+<wire layer="21" width="0.1" x1="3.225" x2="2.313" y1="-2.49" y2="-2.49" />
+<wire layer="21" width="0.1" x1="2.313" x2="-2.948" y1="-2.49" y2="-2.49" />
+<wire layer="21" width="0.1" x1="-2.948" x2="-3.225" y1="-2.49" y2="-2.49" />
+<wire curve="-90" layer="21" width="0.1" x1="-3.225" x2="-3.81" y1="-2.49" y2="-1.905" />
+<wire layer="21" width="0.1" x1="-3.81" x2="-3.81" y1="-1.905" y2="1.905" />
+<wire curve="-90" layer="21" width="0.1" x1="-3.81" x2="-3.225" y1="1.905" y2="2.49" />
+<wire layer="21" width="0.1" x1="-3.225" x2="-2.948" y1="2.49" y2="2.49" />
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="BOX_072_035">
+<description>&lt;b&gt;7.2mm x 3.5mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="-3.302" x2="3.302" y1="2.032" y2="2.032" />
+<wire curve="-90" layer="21" width="0.1" x1="3.302" x2="3.81" y1="2.032" y2="1.524" />
+<wire layer="21" width="0.1" x1="3.81" x2="3.81" y1="1.524" y2="-1.524" />
+<wire curve="-90" layer="21" width="0.1" x1="3.81" x2="3.302" y1="-1.524" y2="-2.032" />
+<wire layer="21" width="0.1" x1="3.302" x2="-3.302" y1="-2.032" y2="-2.032" />
+<wire curve="-90" layer="21" width="0.1" x1="-3.302" x2="-3.81" y1="-2.032" y2="-1.524" />
+<wire layer="21" width="0.1" x1="-3.81" x2="-3.81" y1="-1.524" y2="1.524" />
+<wire curve="-90" layer="21" width="0.1" x1="-3.81" x2="-3.302" y1="1.524" y2="2.032" />
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="BOX_072_025">
+<description>&lt;b&gt;7.2mm x 2.5mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire layer="21" width="0.1" x1="-3.583" x2="3.583" y1="1.24" y2="1.24" />
+<wire layer="21" width="0.1" x1="3.583" x2="3.583" y1="1.24" y2="-1.24" />
+<wire layer="21" width="0.1" x1="3.583" x2="-3.583" y1="-1.24" y2="-1.24" />
+<wire layer="21" width="0.1" x1="-3.583" x2="-3.583" y1="-1.24" y2="1.24" />
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="DISK">
+<description>&lt;b&gt;0.1" lead spacing&lt;/b&gt;</description>
+<wire curve="-105" layer="21" width="0.1" x1="-2.5" x2="2.5" y1="0" y2="0" />
+<wire curve="105" layer="21" width="0.1" x1="-2.5" x2="2.5" y1="0" y2="0" />
+<pad drill="0.7" name="1" x="-1.27" y="0" />
+<pad drill="0.7" name="2" x="1.27" y="0" />
+<text align="center" layer="25" ratio="12" size="1" x="0" y="2">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
+<symbol name="C">
+<wire layer="94" width="0.1" x1="-3.81" x2="-0.5" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="3.81" x2="0.5" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="-0.5" x2="-0.5" y1="2.54" y2="-2.54" />
+<wire layer="94" width="0.1" x1="0.5" x2="0.5" y1="2.54" y2="-2.54" />
+<pin direction="pas" length="short" name="1" swaplevel="1" visible="off" x="-3.81" y="0" />
+<pin direction="pas" length="short" name="2" rot="R180" swaplevel="1" visible="off" x="3.81" y="0" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+</symbol>
+<symbol name="C_POL">
+<wire layer="94" width="0.1" x1="-2.635" x2="-1.365" y1="1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="-2" x2="-2" y1="1.905" y2="0.635" />
+<wire layer="94" width="0.1" x1="-3.81" x2="-1" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="3.81" x2="0" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="-1" x2="-1" y1="2.54" y2="-2.54" />
+<wire curve="90" layer="94" width="0.1" x1="1" x2="1" y1="2.54" y2="-2.54" />
+<pin direction="pas" length="short" name="+" visible="off" x="-3.81" y="0" />
+<pin direction="pas" length="short" name="-" rot="R180" visible="off" x="3.81" y="0" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="POLARIZED" prefix="C" uservalue="yes">
+<description>Polarized Capacitor</description>
+<gates>
+<gate name="C" symbol="C_POL" x="0" y="0" />
+</gates>
+<devices>
+<device name="_050_020" package="050_020">
+<connects>
+<connect gate="C" pad="+" pin="+" />
+<connect gate="C" pad="-" pin="-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_072_050_COMBO" package="072_050_COMBO">
+<connects>
+<connect gate="C" pad="+ 1" pin="+" />
+<connect gate="C" pad="- 2" pin="-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_063_025" package="063_025">
+<connects>
+<connect gate="C" pad="+" pin="+" />
+<connect gate="C" pad="-" pin="-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_080_035" package="080_035">
+<connects>
+<connect gate="C" pad="+" pin="+" />
+<connect gate="C" pad="-" pin="-" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
+<description>Generic Capacitor</description>
+<gates>
+<gate name="C" symbol="C" x="0" y="0" />
+</gates>
+<devices>
+<device name="_BOX_072_025" package="BOX_072_025">
+<connects>
+<connect gate="C" pad="1" pin="1" />
+<connect gate="C" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_BOX_072_035" package="BOX_072_035">
+<connects>
+<connect gate="C" pad="1" pin="1" />
+<connect gate="C" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_BOX_072_050" package="BOX_072_050">
+<connects>
+<connect gate="C" pad="1" pin="1" />
+<connect gate="C" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DISC" package="DISK">
+<connects>
+<connect gate="C" pad="1" pin="1" />
+<connect gate="C" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_050_020" package="050_020_BIPOLAR">
+<connects>
+<connect gate="C" pad="1" pin="1" />
+<connect gate="C" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

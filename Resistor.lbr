@@ -10,10 +10,253 @@
 <library>
 <description>.</description>
 <packages>
+<package name="LDR">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire curve="90" layer="21" width="0.1" x1="-1.651" x2="-1.651" y1="2.159" y2="-2.159" />
+<wire layer="21" width="0.1" x1="-1.651" x2="1.651" y1="-2.159" y2="-2.159" />
+<pad drill="0.7" name="1" x="-1.905" y="0" />
+<pad drill="0.7" name="2" x="1.905" y="0" />
+<text align="center" layer="25" size="1" x="0.127" y="0">N</text>
+<wire layer="21" width="0.127" x1="0.9525" x2="-0.9525" y1="-1.5875" y2="-1.5875" />
+<wire curve="180" layer="21" width="0.127" x1="-0.9525" x2="-0.9525" y1="-1.5875" y2="-1.905" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="-1.905" y2="-1.905" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="-1.27" y2="-1.27" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="0.9525" y2="0.9525" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="1.5875" y2="1.5875" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="1.27" y2="1.27" />
+<wire curve="180" layer="21" width="0.127" x1="0.9525" x2="0.9525" y1="-1.5875" y2="-1.27" />
+<wire curve="180" layer="21" width="0.127" x1="0.9525" x2="0.9525" y1="0.9525" y2="1.27" />
+<wire curve="180" layer="21" width="0.127" x1="-0.9525" x2="-0.9525" y1="1.5875" y2="1.27" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="0.635" y2="0.635" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="-0.9525" y2="-0.9525" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="-0.635" y2="-0.635" />
+<wire curve="180" layer="21" width="0.127" x1="0.9525" x2="0.9525" y1="-0.9525" y2="-0.635" />
+<wire curve="180" layer="21" width="0.127" x1="-0.9525" x2="-0.9525" y1="-0.9525" y2="-1.27" />
+<wire curve="180" layer="21" width="0.127" x1="-0.9525" x2="-0.9525" y1="0.9525" y2="0.635" />
+<wire curve="180" layer="21" width="0.127" x1="0.9525" x2="0.9525" y1="0.3175" y2="0.635" />
+<wire curve="180" layer="21" width="0.127" x1="-0.9525" x2="-0.9525" y1="-0.3175" y2="-0.635" />
+<wire curve="180" layer="21" width="0.127" x1="-0.9525" x2="-0.9525" y1="0.3175" y2="0" />
+<wire curve="180" layer="21" width="0.127" x1="0.9525" x2="0.9525" y1="-0.3175" y2="0" />
+<wire curve="180" layer="21" width="0.127" x1="0.9525" x2="0.9525" y1="1.5875" y2="1.905" />
+<wire curve="90" layer="21" width="0.127" x1="-1.11125" x2="-0.9525" y1="2.06375" y2="1.905" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="0.9525" y1="1.905" y2="1.905" />
+<wire layer="21" width="0.127" x1="0.635" x2="0.9525" y1="0" y2="0" />
+<wire layer="21" width="0.127" x1="0.635" x2="0.9525" y1="0.3175" y2="0.3175" />
+<wire layer="21" width="0.127" x1="0.635" x2="0.9525" y1="-0.3175" y2="-0.3175" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="-0.635" y1="-0.3175" y2="-0.3175" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="-0.635" y1="0" y2="0" />
+<wire layer="21" width="0.127" x1="-0.9525" x2="-0.635" y1="0.3175" y2="0.3175" />
+<wire curve="90" layer="21" width="0.127" x1="1.11125" x2="0.9525" y1="-2.06375" y2="-1.905" />
+<wire curve="90" layer="21" width="0.1" x1="1.651" x2="1.651" y1="-2.159" y2="2.159" />
+<wire layer="21" width="0.1" x1="-1.651" x2="1.651" y1="2.159" y2="2.159" />
+</package>
+<package name="0204">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire curve="240" layer="21" width="0.1" x1="0.635" x2="0.635" y1="-0.75" y2="0.75" />
+<wire curve="240" layer="21" width="0.1" x1="-0.635" x2="-0.635" y1="0.75" y2="-0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="0.75" y2="0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="-0.75" y2="-0.75" />
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="0204_3">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire curve="240" layer="21" width="0.1" x1="0.635" x2="0.635" y1="-0.75" y2="0.75" />
+<wire curve="240" layer="21" width="0.1" x1="-0.635" x2="-0.635" y1="0.75" y2="-0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="0.75" y2="0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="-0.75" y2="-0.75" />
+<pad drill="0.7" name="1" x="-3.81" y="0" />
+<pad drill="0.7" name="2" x="3.81" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="0204_4">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire curve="240" layer="21" width="0.1" x1="0.635" x2="0.635" y1="-0.75" y2="0.75" />
+<wire curve="240" layer="21" width="0.1" x1="-0.635" x2="-0.635" y1="0.75" y2="-0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="0.75" y2="0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="-0.75" y2="-0.75" />
+<pad drill="0.7" name="1" x="-5.08" y="0" />
+<pad drill="0.7" name="2" x="5.08" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="0204_5">
+<description>&lt;b&gt;2mm x 4mm, 0.2" lead spacing&lt;/b&gt;</description>
+<wire curve="240" layer="21" width="0.1" x1="0.635" x2="0.635" y1="-0.75" y2="0.75" />
+<wire curve="240" layer="21" width="0.1" x1="-0.635" x2="-0.635" y1="0.75" y2="-0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="0.75" y2="0.75" />
+<wire layer="21" width="0.1" x1="-0.635" x2="0.635" y1="-0.75" y2="-0.75" />
+<pad drill="0.7" name="1" x="-6.35" y="0" />
+<pad drill="0.7" name="2" x="6.35" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="0207">
+<description>&lt;b&gt;2mm x 7mm, 0.3" lead spacing&lt;/b&gt;</description>
+<wire curve="250" layer="21" width="0.1" x1="1.27" x2="1.27" y1="-0.889" y2="0.889" />
+<wire curve="250" layer="21" width="0.1" x1="-1.27" x2="-1.27" y1="0.889" y2="-0.889" />
+<wire layer="21" width="0.1" x1="-1.27" x2="1.27" y1="0.889" y2="0.889" />
+<wire layer="21" width="0.1" x1="-1.27" x2="1.27" y1="-0.889" y2="-0.889" />
+<pad drill="0.7" name="1" x="-3.81" y="0" />
+<pad drill="0.7" name="2" x="3.81" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="0207_4">
+<description>&lt;b&gt;2mm x 7mm, 0.3" lead spacing&lt;/b&gt;</description>
+<wire curve="250" layer="21" width="0.1" x1="1.27" x2="1.27" y1="-0.889" y2="0.889" />
+<wire curve="250" layer="21" width="0.1" x1="-1.27" x2="-1.27" y1="0.889" y2="-0.889" />
+<wire layer="21" width="0.1" x1="-1.27" x2="1.27" y1="0.889" y2="0.889" />
+<wire layer="21" width="0.1" x1="-1.27" x2="1.27" y1="-0.889" y2="-0.889" />
+<pad drill="0.7" name="1" x="-5.08" y="0" />
+<pad drill="0.7" name="2" x="5.08" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="0207_5">
+<description>&lt;b&gt;2mm x 7mm, 0.3" lead spacing&lt;/b&gt;</description>
+<wire curve="250" layer="21" width="0.1" x1="1.27" x2="1.27" y1="-0.889" y2="0.889" />
+<wire curve="250" layer="21" width="0.1" x1="-1.27" x2="-1.27" y1="0.889" y2="-0.889" />
+<wire layer="21" width="0.1" x1="-1.27" x2="1.27" y1="0.889" y2="0.889" />
+<wire layer="21" width="0.1" x1="-1.27" x2="1.27" y1="-0.889" y2="-0.889" />
+<pad drill="0.7" name="1" x="-6.35" y="0" />
+<pad drill="0.7" name="2" x="6.35" y="0" />
+<text align="center" layer="25" size="1" x="0" y="0">&gt;NAME</text>
+</package>
+<package name="02_VERT">
+<description>&lt;b&gt;0.1" lead spacing&lt;/b&gt;</description>
+<wire curve="250" layer="21" width="0.1" x1="0.635" x2="0.635" y1="-0.889" y2="0.889" />
+<pad drill="0.7" name="1" x="-1.27" y="0" />
+<pad drill="0.7" name="2" x="1.27" y="0" />
+<text align="center" layer="25" rot="R90" size="1" x="0" y="0">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
+<symbol name="R">
+<wire layer="94" width="0.1" x1="0" x2="1.016" y1="2.032" y2="-2.032" />
+<wire layer="94" width="0.1" x1="1.016" x2="2.032" y1="-2.032" y2="2.032" />
+<wire layer="94" width="0.1" x1="2.032" x2="2.54" y1="2.032" y2="0" />
+<wire layer="94" width="0.1" x1="3.81" x2="2.54" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0" x2="-1.016" y1="2.032" y2="-2.032" />
+<wire layer="94" width="0.1" x1="-1.016" x2="-2.032" y1="-2.032" y2="2.032" />
+<wire layer="94" width="0.1" x1="-2.032" x2="-2.54" y1="2.032" y2="0" />
+<wire layer="94" width="0.1" x1="-3.81" x2="-2.54" y1="0" y2="0" />
+<pin direction="pas" length="point" name="1" swaplevel="1" visible="off" x="-3.81" y="0" />
+<pin direction="pas" length="point" name="2" rot="R180" swaplevel="1" visible="off" x="3.81" y="0" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+</symbol>
+<symbol name="LDR">
+<wire layer="94" width="0.1" x1="0" x2="0.762" y1="1.27" y2="-1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="1.524" y1="-1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="1.524" x2="2.032" y1="1.27" y2="0" />
+<wire layer="94" width="0.1" x1="3.81" x2="2.032" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0" x2="-0.762" y1="1.27" y2="-1.27" />
+<wire layer="94" width="0.1" x1="-0.762" x2="-1.524" y1="-1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="-1.524" x2="-2.032" y1="1.27" y2="0" />
+<wire layer="94" width="0.1" x1="-3.81" x2="-2.032" y1="0" y2="0" />
+<pin direction="pas" length="point" name="1" swaplevel="1" visible="off" x="-3.81" y="0" />
+<pin direction="pas" length="point" name="2" rot="R180" swaplevel="1" visible="off" x="3.81" y="0" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.794" width="0.1" x="0" y="0" />
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="LDR" uservalue="yes">
+<description>Light Dependant Resistor</description>
+<gates>
+<gate name="LDR" symbol="LDR" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="LDR">
+<connects>
+<connect gate="LDR" pad="1" pin="1" />
+<connect gate="LDR" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
+<description>Generic Resistor</description>
+<gates>
+<gate name="R" symbol="R" x="0" y="0" />
+</gates>
+<devices>
+<device name="_1/8W" package="0204">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_1/8W_3" package="0204_3">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_1/8W_4" package="0204_4">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_1/8W_5" package="0204_5">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_1/4W" package="0207">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_1/4W_4" package="0207_4">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_1/4W_5" package="0207_5">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_VERTICAL" package="02_VERT">
+<connects>
+<connect gate="R" pad="1" pin="1" />
+<connect gate="R" pad="2" pin="2" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

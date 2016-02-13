@@ -10,10 +10,409 @@
 <library>
 <description>.</description>
 <packages>
+<package name="TO92">
+<pad drill="0.7" name="1" x="-2.54" y="0" />
+<pad drill="0.7" name="2" x="0" y="0" />
+<pad drill="0.7" name="3" x="2.54" y="0" />
+<text align="center" layer="25" size="1" x="0" y="1.524">&gt;NAME</text>
+<wire layer="21" width="0.127" x1="-1.9558" x2="1.9558" y1="-1.7526" y2="-1.7526" />
+<wire layer="21" width="0.127" x1="1.9558" x2="2.5908" y1="-1.7526" y2="-0.1524" />
+<wire layer="21" width="0.127" x1="-2.5908" x2="-1.9558" y1="-0.1524" y2="-1.7526" />
+<wire curve="180" layer="21" width="0.127" x1="2.5908" x2="-2.5908" y1="-0.1524" y2="-0.1524" />
+</package>
 </packages>
 <symbols>
+<symbol name="NPN">
+<pin direction="pas" length="point" name="B" visible="off" x="-2.54" y="0" />
+<pin direction="pas" length="point" name="C" visible="off" x="2.54" y="2.54" />
+<pin direction="pas" length="point" name="E" visible="off" x="2.54" y="-2.54" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.54" width="0.1" x="1.524" y="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="2.54" y2="2.286" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-2.54" y2="-2.286" />
+<wire layer="94" width="0.1" x1="-2.54" x2="0.254" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="-1.524" y2="1.524" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.254" y1="2.286" y2="0.762" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.254" y1="-2.286" y2="-0.762" />
+<wire curve="-45" layer="94" width="0.1" x1="2.54" x2="2.032" y1="-2.286" y2="-1.524" />
+<wire curve="-45" layer="94" width="0.1" x1="1.64109375" x2="2.54" y1="-2.11015625" y2="-2.286" />
+<wire cap="flat" curve="-45" layer="94" width="0.1" x1="2.032" x2="1.64109375" y1="-1.524" y2="-2.11015625" />
+</symbol>
+<symbol name="PNP">
+<pin direction="pas" length="point" name="B" visible="off" x="-2.54" y="0" />
+<pin direction="pas" length="point" name="E" visible="off" x="2.54" y="2.54" />
+<pin direction="pas" length="point" name="C" visible="off" x="2.54" y="-2.54" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.54" width="0.1" x="1.524" y="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="2.54" y2="2.286" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-2.54" y2="-2.286" />
+<wire layer="94" width="0.1" x1="-2.54" x2="0.254" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="-1.524" y2="-0.762" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="-0.762" y2="1.524" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.254" y1="2.286" y2="0.762" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.254" y1="-2.286" y2="-0.762" />
+<wire curve="45" layer="94" width="0.1" x1="0.254" x2="0.762" y1="0.762" y2="1.524" />
+<wire curve="45" layer="94" width="0.1" x1="1.15290625" x2="0.254" y1="0.93784375" y2="0.762" />
+<wire cap="flat" curve="45" layer="94" width="0.1" x1="0.762" x2="1.15290625" y1="1.524" y2="0.93784375" />
+</symbol>
+<symbol name="JFET_N_CHANNEL">
+<pin direction="pas" length="point" name="G" visible="off" x="-2.54" y="0" />
+<pin direction="pas" length="point" name="D" visible="off" x="2.54" y="2.54" />
+<pin direction="pas" length="point" name="S" visible="off" x="2.54" y="-2.54" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.54" width="0.1" x="1.524" y="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="2.54" y2="1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-2.54" y2="-1.27" />
+<wire layer="94" width="0.1" x1="-2.54" x2="0.508" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.778" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="-1.27" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="1.27" y2="1.778" />
+<wire curve="-45" layer="94" width="0.1" x1="0.508" x2="-0.254" y1="0" y2="0.508" />
+<wire curve="45" layer="94" width="0.1" x1="0.508" x2="-0.254" y1="0" y2="-0.508" />
+<wire curve="-45" layer="94" width="0.1" x1="-0.254" x2="-0.254" y1="0.508" y2="-0.508" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.27" y2="1.27" />
+</symbol>
+<symbol name="JFET_P_CHANNEL">
+<pin direction="pas" length="point" name="G" visible="off" x="-2.54" y="0" />
+<pin direction="pas" length="point" name="S" visible="off" x="2.54" y="2.54" />
+<pin direction="pas" length="point" name="D" visible="off" x="2.54" y="-2.54" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.54" width="0.1" x="1.524" y="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="2.54" y2="1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-2.54" y2="-1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.778" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="-1.27" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="1.27" y2="1.778" />
+<wire curve="-45" layer="94" width="0.1" x1="-0.762" x2="0" y1="0" y2="-0.508" />
+<wire curve="45" layer="94" width="0.1" x1="-0.762" x2="0" y1="0" y2="0.508" />
+<wire curve="-45" layer="94" width="0.1" x1="0" x2="0" y1="-0.508" y2="0.508" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.27" y2="0" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="0" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="-0.762" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="-1.016" x2="-2.54" y1="0" y2="0" />
+</symbol>
+<symbol name="MOSFET_N_CHANNEL">
+<pin direction="pas" length="point" name="G" visible="off" x="-2.54" y="0" />
+<pin direction="pas" length="point" name="D" visible="off" x="2.54" y="2.54" />
+<pin direction="pas" length="point" name="S" visible="off" x="2.54" y="-2.54" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.54" width="0.1" x="1.524" y="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="2.54" y2="1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-2.54" y2="-1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.778" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="-1.27" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="1.27" y2="1.778" />
+<wire curve="-45" layer="94" width="0.1" x1="1.016" x2="1.778" y1="0" y2="-0.508" />
+<wire curve="45" layer="94" width="0.1" x1="1.016" x2="1.778" y1="0" y2="0.508" />
+<wire curve="-45" layer="94" width="0.1" x1="1.778" x2="1.778" y1="-0.508" y2="0.508" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-1.27" y2="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="1.016" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="-1.27" y2="0" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="0" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.254" x2="-2.54" y1="0" y2="0" />
+</symbol>
+<symbol name="MOSFET_P_CHANNEL">
+<pin direction="pas" length="point" name="G" visible="off" x="-2.54" y="0" />
+<pin direction="pas" length="point" name="D" visible="off" x="2.54" y="2.54" />
+<pin direction="pas" length="point" name="S" visible="off" x="2.54" y="-2.54" />
+<text align="center" layer="95" size="1" x="0" y="3.683">&gt;NAME</text>
+<text align="center" layer="96" size="1" x="0" y="-3.683">&gt;VALUE</text>
+<circle layer="94" radius="2.54" width="0.1" x="1.524" y="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="2.54" y2="1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="-2.54" y2="-1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.778" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="-1.27" y2="-1.27" />
+<wire layer="94" width="0.1" x1="2.54" x2="0.762" y1="1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="1.27" y2="1.778" />
+<wire curve="45" layer="94" width="0.1" x1="2.286" x2="1.524" y1="0" y2="-0.508" />
+<wire curve="-45" layer="94" width="0.1" x1="2.286" x2="1.524" y1="0" y2="0.508" />
+<wire curve="45" layer="94" width="0.1" x1="1.524" x2="1.524" y1="-0.508" y2="0.508" />
+<wire layer="94" width="0.1" x1="0.762" x2="0.762" y1="-1.27" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.762" x2="2.286" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="-1.27" y2="0" />
+<wire layer="94" width="0.1" x1="0.254" x2="0.254" y1="0" y2="1.27" />
+<wire layer="94" width="0.1" x1="0.254" x2="-2.54" y1="0" y2="0" />
+<wire layer="94" width="0.1" x1="2.54" x2="2.54" y1="0" y2="1.27" />
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="NPN" prefix="Q" uservalue="yes">
+<description>Generic Transistor</description>
+<gates>
+<gate name="Q" symbol="NPN" x="0" y="0" />
+</gates>
+<devices>
+<device name="_EBC" package="TO92">
+<connects>
+<connect gate="Q" pad="2" pin="B" />
+<connect gate="Q" pad="3" pin="C" />
+<connect gate="Q" pad="1" pin="E" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_CBE" package="TO92">
+<connects>
+<connect gate="Q" pad="2" pin="B" />
+<connect gate="Q" pad="1" pin="C" />
+<connect gate="Q" pad="3" pin="E" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_ECB" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="B" />
+<connect gate="Q" pad="2" pin="C" />
+<connect gate="Q" pad="1" pin="E" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET_N" prefix="Q" uservalue="yes">
+<description>Generic Transistor</description>
+<gates>
+<gate name="Q" symbol="MOSFET_N_CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="_DSG" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="3" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DGS" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="3" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_GSD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="1" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_SGD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="1" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET_P" prefix="Q" uservalue="yes">
+<description>Generic Transistor</description>
+<gates>
+<gate name="Q" symbol="MOSFET_P_CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="_DSG" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="3" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DGS" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="3" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_GSD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="1" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_SGD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="1" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PNP" prefix="Q" uservalue="yes">
+<description>Generic Transistor</description>
+<gates>
+<gate name="Q" symbol="PNP" x="0" y="0" />
+</gates>
+<devices>
+<device name="_EBC" package="TO92">
+<connects>
+<connect gate="Q" pad="2" pin="B" />
+<connect gate="Q" pad="3" pin="C" />
+<connect gate="Q" pad="1" pin="E" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_CBE" package="TO92">
+<connects>
+<connect gate="Q" pad="2" pin="B" />
+<connect gate="Q" pad="1" pin="C" />
+<connect gate="Q" pad="3" pin="E" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_ECB" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="B" />
+<connect gate="Q" pad="2" pin="C" />
+<connect gate="Q" pad="1" pin="E" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JFET_N" prefix="Q" uservalue="yes">
+<description>Generic Transistor</description>
+<gates>
+<gate name="Q" symbol="JFET_N_CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="_DSG" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="3" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DGS" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="3" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_GSD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="1" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_SGD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="1" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JFET_P" prefix="Q" uservalue="yes">
+<description>Generic Transistor</description>
+<gates>
+<gate name="Q" symbol="JFET_P_CHANNEL" x="0" y="0" />
+</gates>
+<devices>
+<device name="_DSG" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="3" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_DGS" package="TO92">
+<connects>
+<connect gate="Q" pad="1" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="3" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_GSD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="1" pin="G" />
+<connect gate="Q" pad="2" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+<device name="_SGD" package="TO92">
+<connects>
+<connect gate="Q" pad="3" pin="D" />
+<connect gate="Q" pad="2" pin="G" />
+<connect gate="Q" pad="1" pin="S" />
+</connects>
+<technologies>
+<technology name="" />
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
